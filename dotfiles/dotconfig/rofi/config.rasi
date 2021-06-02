@@ -1,0 +1,18 @@
+configuration {
+	modi: "ssh,window,drun";
+	width: 50;
+	lines: 15;
+	columns: 1;
+	bw: 4;
+	font: "SF Mono 11";
+	padding: 10;
+	terminal: "kitty";
+	ssh-client: "ssh";
+	ssh-command: "kitty -e {ssh-client} {host}";
+	line-margin: 5;
+	separator-style: "solid";
+	hide-scrollbar: true;
+	fullscreen: false;
+	dpi: 100;
+}
+@import "/usr/share/rofi/themes/falcon.rasi"
